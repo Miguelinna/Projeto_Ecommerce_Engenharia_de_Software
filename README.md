@@ -52,13 +52,6 @@ Quando ele escolhe a forma de pagamento "Cartão de Crédito" e preenche os dado
 Então o sistema deve exibir a mensagem "Compra realizada sucesso" e o pedido deve ser registrado com status "em processamento".
   
 
-## 💻 Implementação em Python  
-O sistema foi implementado em Python, utilizando **classes e funções** para organizar o código:  
-- Classe `Roupa`: representa os produtos, com atributos como nome, tamanho, preço e estoque.  
-- Classe `LojaRoupas`: gerencia o estoque, carrinho e fluxo de compra.  
-- Funções principais: listar estoque, adicionar ao carrinho, visualizar carrinho e finalizar compra.  
-- Interface simples via **menu interativo no terminal**, permitindo ao usuário navegar pelas opções.  
-
 ## 📊 Diagrama (Visão Geral)  
 O diagrama do sistema pode ser representado como:  
 
@@ -77,3 +70,13 @@ Cliente → LojaRoupas → Estoque → Carrinho → Pagamento
 
 
 ---
+
+
+## 💻 Implementação em Python  
+O sistema foi implementado em Python, utilizando **classes e funções** para organizar o código:  
+- Classe `Roupa`: representa os produtos, com atributos como nome, tamanho, preço e estoque.  
+- Classe `LojaRoupas`: gerencia o estoque, carrinho e fluxo de compra.  
+- Funções principais: listar estoque, adicionar ao carrinho, visualizar carrinho e finalizar compra.  
+- Interface simples via **menu interativo no terminal**, permitindo ao usuário navegar pelas opções.  
+https://github.com/Miguelinna/Projeto_Ecommerce_Engenharia_de_Software/blob/main/C%C3%B3digo_Python/E-commerce.py
+
